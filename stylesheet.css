@@ -1,38 +1,36 @@
 *{
-  padding: 0px ;
-  margin: 0px ;
-  box-sizing: border-box ;
+padding: 0px ;
+margin: 0px ;
+box-sizing: border-box ;
 }
 
 header{
-  background-color:#FF9A4B ;
-  height: 50px ;
-  width: 100% ;
-  margin-bottom:50px;
+background-color:#FF9A4B ;
+height: 50px ;
+width: 100% ;
+margin-bottom:50px;
 }
 main{
-  width: 100%
-}
-.big-box{
-  width: 960px ;
-  margin: 0 auto ;
-  display: flex ;
+width: 960px;
+margin: 50px auto;
+display: flex;
 }
 
 .small-box{
-  background-color: #EEEEEE;
-  width: 300px ;
-  position: relative;
+background-color: #EEEEEE;
+width: 300px ;
+position: relative;
+padding: 10px 10px 0 10px;
+margin: 0 auto;
 }
 
 .small-box:nth-child(2)
 {
-  margin: 0 30px;
+margin: 0 30px;
 }
 
 .box{
-  margin: 10px 10px 15px 10px;
-  height:150px;
+height:150px;
 }
 .small-box:first-child > .box{
 background-size:cover;
@@ -53,16 +51,13 @@ background-position: bottom;
 
 }
 session{
-  padding-top: 15px;
-  margin-bottom: 5px;
+padding-top: 15px;
+margin-bottom: 5px;
 }
 h3{
-   margin-bottom: 5px;
-  margin-left: 10px ;
-}
-session p{
- margin:0 10px 10px 10px;
-
+margin-top:15px;
+margin-bottom: 5px;
+margin-left: 0px ;
 }
 .box p{
 padding: 3px ;
@@ -73,36 +68,30 @@ position: absolute;
 top:0;
 left:0;
 }
+
 footer{
-  height: 50px;
-  background-color: #AAAAAA;
-  margin-top: 50px;
+height: 50px;
+background-color: #AAAAAA;
+margin-top: 50px;
 }
 @media screen and (max-width: 768px){
 
 header{
- width: 100% ;
-  }
+width: 100% ;
+}
 
 main{
-  width: 100% ;
+width: 100% ;
+display: flex;
 }
-.big-box{
-  width: 100%;
-  display:block;
-  margin: 0 auto;
-}
+
 .small-box{
-  width:90%;
-  margin: 0 auto;
+width: 90%;
+margin: 0 auto;
 }
 
 .small-box:nth-child(2){
-  margin: 20px 0;
-  margin:0 auto;
+margin:20px auto;
 }
 
-.small-box:last-child{
-  margin: 0 auto;
-}
 }
