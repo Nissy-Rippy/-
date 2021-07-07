@@ -1,97 +1,93 @@
-*{
-padding: 0px ;
-margin: 0px ;
-box-sizing: border-box ;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-header{
-background-color:#FF9A4B ;
-height: 50px ;
-width: 100% ;
-margin-bottom:50px;
+header {
+  background-color: #ff9a4b;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 50px;
 }
-main{
-width: 960px;
-margin: 50px auto;
-display: flex;
-}
-
-.small-box{
-background-color: #EEEEEE;
-width: 300px ;
-position: relative;
-padding: 10px 10px 0 10px;
-margin: 0 auto;
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
 }
 
-.small-box:nth-child(2)
-{
-margin: 0 30px;
+.small-box {
+  background-color: #eeeeee;
+  width: 300px;
+  position: relative;
+  padding: 10px 10px 0 10px;
+  margin: 0 auto;
 }
 
-.box{
-height:150px;
-}
-.small-box:first-child > .box{
-background-size:cover;
-background-image:url(img/flow01.png);
-background-position: bottom;
+.small-box:nth-child(2) {
+  margin: 0 30px;
 }
 
-.small-box:nth-child(2) > .box{
-background-size: cover;
-background-image:url(img/flow02.png);
-background-position: bottom;
-
+.box {
+  height: 150px;
 }
-.small-box:last-child > .box{
-background-size: cover;
-background-image:url(img/flow03.png);
-background-position: bottom;
-
-}
-session{
-padding-top: 15px;
-margin-bottom: 5px;
-}
-h3{
-margin-top:15px;
-margin-bottom: 5px;
-margin-left: 0px ;
-}
-.box p{
-padding: 3px ;
-color:white;
-display: inline-block;
-background-color: #FF9A4B;
-position: absolute;
-top:0;
-left:0;
+.small-box:first-child > .box {
+  background-size: cover;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
 }
 
-footer{
-height: 50px;
-background-color: #AAAAAA;
-margin-top: 50px;
+.small-box:nth-child(2) > .box {
+  background-size: cover;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
 }
-@media screen and (max-width: 768px){
-
-header{
-width: 100% ;
+.small-box:last-child > .box {
+  background-size: cover;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+}
+session {
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+.box p {
+  padding: 3px;
+  color: white;
+  display: inline-block;
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-main{
-width: 100% ;
-display: flex;
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+  margin-top: 50px;
 }
 
-.small-box{
-width: 90%;
-margin: 0 auto;
-}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
 
-.small-box:nth-child(2){
-margin:20px auto;
-}
+  main {
+    width: 100%;
+    display: block;
+  }
 
+  .small-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .small-box:nth-child(2) {
+    margin: 20px auto;
+  }
 }
